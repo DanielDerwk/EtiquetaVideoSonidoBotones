@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video|Audio|Sonido</title>
+</head>
+
+<body>
+    <h1>Video</h1>
+    <!--
+        Etiquetas Video.
+        src=	    Dirección URL |	        Video a reproducir. Obligatoria si actua como etiqueta contenedora.
+        poster=	    Dirección URL |	        Muestra una imagen a modo de presentación.
+        mediagroup=	nombre	|               Establece un nombre para un grupo de contenidos multimedia.
+        autoplay=		                    Comienza a reproducir el video automáticamente.
+        loop=		                        Vuelve a iniciar el video cuando finaliza su reproducción (bucle).
+        muted=		                        Establece el video sin sonido (silenciado).
+        controls=	                        Muestra los controles de reproducción. Por defecto no se muestran.
+        width=	    tamaño  |               Indica el tamaño de ancho del video.
+        height=	    tamaño	|               Indica el tamaño de alto del video.
+    -->
+
+    <video src="./Video/Mujer - 58142.mp4" width="960" height="250" autoplay="true" controls="" muted="true" loop="true"></video>
+
+    <h1>Sonido</h1>
+    <!--
+        src=	Dirección URL |	 Audio a reproducir. Obligatoria si actua como etiqueta contenedora.
+        mediagroup=	nombre |	 Establece un nombre para un grupo de contenidos multimedia.
+        autoplay=		         Comienza a reproducir el audio automáticamente.
+        loop=		             Vuelve a iniciar el audio cuando finaliza su reproducción (bucle).
+        muted=	                 Establece el audio sin sonido (silenciado).
+        controls=		         Muestra los controles de reproducción. Por defecto no se muestran.
+    -->
+
+    <audio src="./Sounds/Super Mario RPG  Forest Maze.mp3" controls="" loop="true" ></audio>
+
+    <h1>Botones</h1>
+    <!--
+        button: boton
+        name: sirve para darle un nombre al botón. Al enviarse el formulario se enviarán los datos 
+        del bot´n bajo este nombre.
+        image: visualmente muestra una imagen especificado en el etrivuto src
+        type: sirve para indicar el tipo de botón, que podría ser: button para un botón normal, 
+        reset para un botón de borrado de datos del formulario y 
+        submit para un botón de envío de formulario.
+        disabled: este atributo sirve para hacer que el botón se encuentre deshabilitado.
+    -->
+
+    <button reset> Enviar </button>
+    
+
+
+</body>
+</html>
